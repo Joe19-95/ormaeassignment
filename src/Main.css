@@ -1,0 +1,23 @@
+.buttonclass{
+    position: fixed;
+    bottom: 0;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid blue;
+}
+.buttonclass{
+    display: flex;
+}
+.space{
+    width: 30vw;
+}
+.buttonclass>button{
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(8, 5, 5);
+    color: white;
+}
